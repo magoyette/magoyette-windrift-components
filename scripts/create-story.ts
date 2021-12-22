@@ -10,7 +10,7 @@ const argv = yargs(hideBin(process.argv))
         'create new story boilerplate with the identifier <story-identifer>'
     )
     .demandCommand(1)
-    .parse()
+    .parseSync()
 
 const story = argv._[0] as string
 

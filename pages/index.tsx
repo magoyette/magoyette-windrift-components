@@ -3,8 +3,6 @@ import Head from 'next/head'
 import fs from 'fs'
 import path from 'path'
 
-import styles from 'public/stories/manual/styles/Index.module.scss'
-
 interface StoryProps {
     paths: string[]
 }
@@ -28,10 +26,6 @@ function Index({ paths }: StoryProps): JSX.Element {
             <Head>
                 <title lang="en">Welcome to Windrift</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-                <link
-                    href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=EB+Garamond&family=Elsie&family=Roboto&&family=Roboto+Mono&display=block"
-                    rel="stylesheet"
-                />
 
                 <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
                 <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png" />
@@ -43,16 +37,16 @@ function Index({ paths }: StoryProps): JSX.Element {
                 <meta name="msapplication-config" content="/images/browserconfig.xml" />
                 <meta name="theme-color" content="#ffffff" />
             </Head>
-            <header className={styles.header}>
+            <header>
                 <nav>
                     <div></div>
                     <h1>Welcome to Windrift!</h1>
                     <div> </div>
                 </nav>
             </header>
-            <main className={styles.main} lang="en">
-                <nav className={styles.left}></nav>
-                <article className={styles.story}>
+            <main lang="en">
+                <nav></nav>
+                <article>
                     <p>
                         This is the default index page for a{' '}
                         <a href="https://github.com/lizadaly/windrift">Windrift</a> installation.
@@ -82,7 +76,7 @@ function Index({ paths }: StoryProps): JSX.Element {
                         ))}
                     </ul>
                 </article>
-                <nav className={styles.right}></nav>
+                <nav></nav>
             </main>
         </>
     )
