@@ -6,7 +6,7 @@ import Head from 'next/dist/shared/lib/head'
 
 import * as Chakra from '@chakra-ui/react'
 
-import { StoryContext } from 'pages/[story]/[[...chapter]]'
+import { StoryContext } from 'core/containers/store-container'
 import ResetButton from 'core/components/ui/reset-button'
 
 //import styles from 'public/stories/custom-components/styles/Index.module.scss'
