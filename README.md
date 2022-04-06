@@ -36,11 +36,12 @@ git remote set-url --push upstream DISABLE
 
 ```sh
 git fetch upstream
-git rebase upstream/main
+git merge upstream/main
 ```
 
 ## License
 
 The source code of [Windrift](https://github.com/lizadaly/windrift/) is distributed under the MIT License.
 
-The source code written by Marc-André Goyette for the custom components is also distributed under the MIT License.
+The source code written by Marc-André Goyette for the custom components is also distributed under the
+MIT License.
