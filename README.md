@@ -35,8 +35,7 @@ git remote set-url --push upstream DISABLE
 ## Merging changes from upstream
 
 ```sh
-git fetch upstream
-git merge upstream/main
+./merge-upstream.sh
 ```
 
 ## License
