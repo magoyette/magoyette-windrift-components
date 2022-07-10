@@ -17,7 +17,7 @@
         "node": "=14"
     },
     "dependencies": {
-        "@chakra-ui/react": "^1.8.8",
+        "@chakra-ui/react": "^2.2.1",
         "@emotion/react": "^11.8.2",
         "@emotion/styled": "^11.8.1",
         "@fontsource/alegreya": "^4.5.7",
